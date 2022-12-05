@@ -256,10 +256,10 @@ function run_setup() {
   # Berechtigungen setzen
   echo -e "${white}   [➔] Setze Berechtigungen"
   chmod 755 $moonrakerServiceFile
-  chmod 755 $moonrakerConfFile
+  chmod 777 $moonrakerConfFile
   chmod 755 $moonrakerEnvFile
   chmod 755 $klipperServiceFile
-  chmod 755 $printerConfigFile
+  chmod 777 $printerConfigFile
   chmod u+x $moonrakerServiceFile
   chmod u+x $klipperServiceFile
 
